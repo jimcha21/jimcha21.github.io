@@ -1,5 +1,3 @@
-
-Chatziparaschis Dimitris
 ---
 layout: default
 ---
