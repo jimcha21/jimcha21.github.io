@@ -1,6 +1,7 @@
+
+Chatziparaschis Dimitris
 ---
 layout: default
-Chatziparaschis Dimitris
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
