@@ -10,6 +10,14 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <meta name="google-site-verification" content="b9ZS5FDysHUpcd1O9swUCabIJlmYoX6MnNuvtSqX7Sc" />
+    <style>
+      /* CSS for the styled horizontal rule */
+      hr.style-two {
+          border: 0;
+          height: 1px;
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));
+      }
+  </style>
   </head>
 
   <body>
@@ -17,10 +25,11 @@
       <tr style="padding:0px">
         <td style="padding:0px">
         
+          <!-- Personal Bio -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr style="padding:0px">
               <td style="padding:2.5%;width:30%;max-width:30%">
-                <a href="images/dimitris.JPG"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 10%;" alt="profile photo" src="images/dimitris.JPG" class="hoverZoomLink"></a>
+                <a href="images/chatziparaschis_dimitris.JPG"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 10%;" alt="profile photo" src="images/chatziparaschis_dimitris.JPG" class="hoverZoomLink"></a>
               </td>
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
@@ -30,16 +39,18 @@
                 <p>I'm a graduate student in the <a href="https://www.ece.ucr.edu">ECE Department</a> of the <a href="https://www.ucr.edu">University of California, Riverside</a>, working towards my PhD in EE under <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>.  Prior to that, I completed my MSc in Computer Science and Engineering and my Diploma in Electrical and Computer Engineering at the <a href="https://www.tuc.gr/en/home">Technical University of Crete</a> in Chania, Greece. In both my MSc and Diploma programs, I was honored to work with Prof. <a href=" https://www.intelligence.tuc.gr/~lagoudakis/">Michail G. Lagoudakis</a>. </p>
 
                 <p style="text-align:center">
-                  <a href="mailto:dimitrios.chatziparaschis@email.ucr.edu">Email</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=I4y1mWoAAAAJ"> Google Scholar</a> &nbsp;/&nbsp;
-                  <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp; -->
-                  <a href="https://github.com/jimcha21">GitHub</a>  &nbsp;/&nbsp;
+                  <a href="mailto:dimitrios.chatziparaschis@email.ucr.edu">Email</a> &nbsp;|&nbsp;
+                  <a href="https://scholar.google.com/citations?user=I4y1mWoAAAAJ"> Google Scholar</a> &nbsp;|&nbsp;
+                  <!-- <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp; -->
+                  <a href="https://github.com/jimcha21">Github</a>  &nbsp;|&nbsp;
                   <a href="https://gr.linkedin.com/in/dimitris-chatziparaschis-1280757b">LinkedIn</a>
                 </p>
+                <hr class="style-two">
               </td>
             </tr>
           </tbody></table>
 
+          <!-- Research Statement -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
@@ -49,33 +60,62 @@
             </tr>
           </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <!-- Projects -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-            <tr onmouseout="ram_stop()" onmouseover="ram_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src='images/tree_detection_characteristics_estimation.png' width=100%>
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2404.02516">
-                  <span class="papertitle">On-the-Go Tree Detection and Geometric Traits Estimation with Ground Mobile Robots in Fruit Tree Groves</span>
-                </a>
-                <br>
-                Dimitrios Chatziparaschis, <a href="https://hanzheteng.com/">Hanzhe Teng</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Yipeng Wang</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Pamodya Peiris</a>, <a href="https://sites.google.com/site/scudieroe/">Elia Scudiero</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>
-                <br>
-                <a href="https://arxiv.org/abs/2404.02516">(arXiv)</a>
-                <p></p>
-                <p>
-                Development of algorithm framework to perform real-time tree landmark detection and global association based on an underlying Kalman Filter for tree state estimation and employed criteria in canditate matching based on association uncertainty (entropy).
-                </p>
-              </td>
-            </tr>
+        <!-- Robotic Manipulation with NeuCF -->
+        <tr onmouseout="roman2024_stop()" onmouseover="roman2024_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src='images/chatziparaschis_roman_2024.png' width=100%>
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://jimcha21.github.io">
+              <span class="papertitle">Adaptive Environment-Aware Robotic Arm Reaching Based on a Bio-Inspired Neurodynamical Computational Framework</span>
+            </a>
+            <br>
+            <b>Dimitrios Chatziparaschis</b>, <a href="https://www.christopouloslab.com/people">Shan Zhong</a>, <a href="https://www.christopouloslab.com">Vasileios Christopoulos</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>
+            <br>
+            <em>arXiv</em>, 2024
+            <br>
+            <a href="https://jimcha21.github.io">arXiv</a>
+            <p></p>
+            <p>
+              Demonstration of environment-aware robotic manipulation in dynamic target-reaching scenarios using a controller based on Dynamic Neural Fields (DNFs), Stochastic Optimal Control (SOC) theory, and monocular visual input.
+            </p>
+          </td>
+        </tr>
 
-      <tr onmouseout="ram_stop()" onmouseover="ram_start()">
+      <!-- ICRA 2024 -->
+      <tr onmouseout="icra2024_stop()" onmouseover="icra2024_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
-            <img src='images/ram1.png' width=100%>
+            <img src='images/chatziparaschis_icra_2024.png' width=100%>
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://arxiv.org/abs/2404.02516">
+            <span class="papertitle">On-the-Go Tree Detection and Geometric Traits Estimation with Ground Mobile Robots in Fruit Tree Groves</span>
+          </a>
+          <br>
+          <b>Dimitrios Chatziparaschis</b>, <a href="https://hanzheteng.com/">Hanzhe Teng</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Yipeng Wang</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Pamodya Peiris</a>, <a href="https://sites.google.com/site/scudieroe/">Elia Scudiero</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>
+          <br>
+          <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2024
+          <br>
+          <a href="https://arxiv.org/abs/2404.02516">arXiv</a> | <a href="https://www.youtube.com/watch?v=Y2-bcf-ye4s">video</a>
+          <p></p>
+          <p>
+            Development of an algorithmic framework to perform real-time tree landmark detection and global association based on an underlying Kalman Filter for tree characteristics estimation and employed criteria for candidate matching based on association uncertainty.
+          </p>
+        </td>
+      </tr>
+
+      <!-- RAM 2023 -->
+      <tr onmouseout="ram2023_stop()" onmouseover="ram2023_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src='images/dechemi_roboticassessment_2023.png' width=100%>
           </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -83,24 +123,25 @@
             <span class="papertitle">Robotic Assessment of a Crop's Need for Watering: Automating a Time-Consuming Task to Support Sustainable Agriculture</span>
           </a>
           <br>
-          <a href="https://scholar.google.com/citations?hl=en&user=qdImO5QAAAAJ"> Amel Dechemi</a>, Dimitrios Chatziparaschis, <a href="https://jchen142.github.io">Joshua Chen</a>, <a href="https://merrickcampbell.com">Merrick Campbell</a>, <a href="https://scholar.google.com/citations?user=SLtmowUAAAAJ&hl=en">Azin Shamshirgaran</a>, <a href="https://scholar.google.com/citations?user=ij2hZTEAAAAJ&hl=en">Caio Mucchiani</a>, <a href="https://vcg.ece.ucr.edu/amit">Amit K. Roy-Chowdhury</a>, <a href="https://sites.ucmerced.edu/scarpin">Stefano Carpin</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=qdImO5QAAAAJ"> Amel Dechemi</a>, <b>Dimitrios Chatziparaschis</b>, <a href="https://jchen142.github.io">Joshua Chen</a>, <a href="https://merrickcampbell.com">Merrick Campbell</a>, <a href="https://scholar.google.com/citations?user=SLtmowUAAAAJ&hl=en">Azin Shamshirgaran</a>, <a href="https://scholar.google.com/citations?user=ij2hZTEAAAAJ&hl=en">Caio Mucchiani</a>, <a href="https://vcg.ece.ucr.edu/amit">Amit K. Roy-Chowdhury</a>, <a href="https://sites.ucmerced.edu/scarpin">Stefano Carpin</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>
           <br>
           <em>IEEE Robotics & Automation Magazine</em>, 2023
           <br>
           <a href="https://ieeexplore.ieee.org/abstract/document/10297985">paper</a>
-          /
+          |
           <a href="https://www.youtube.com/watch?v=xu4zrTe_S-U">video</a>
           <p></p>
           <p>
-          Demonstration of a fully autonomous robotic platform for stem water potential (SWP) measurements in avocado fields, based on Gaussian Processes (GPs) for modeling sampling area uncertainty and onboard leaf detection to perform 6D pose estimation and leaf cutting. 
+          Demonstration of a fully autonomous robotic platform for Stem Water Potential (SWP) measurements in avocado fields, based on Gaussian Processes (GPs) for modeling sampling area uncertainty and onboard leaf detection to perform 6D pose estimation and leaf cutting. 
           </p>
         </td>
       </tr>
 
-      <tr onmouseout="ced_stop()" onmouseover="ced_start()">
+      <!-- WACV 2023 -->
+      <tr onmouseout="wacv2023_stop()" onmouseover="wacv2023_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
-            <img src='images/ced.png' width=100%>
+            <img src='images/teng_ced_2023.png' width=100%>
           </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -108,14 +149,14 @@
             <span class="papertitle">Centroid Distance Keypoint Detector for Colored Point Clouds</span>
           </a>
           <br>
-          <a href="https://hanzheteng.com/">Hanzhe Teng</a>, Dimitrios Chatziparaschis, <a href="https://scholar.google.com/citations?user=sZ11YxIAAAAJ&hl=en&authuser=1"> Xinyue Kan</a>, <a href="https://vcg.ece.ucr.edu/amit">Amit K. Roy-Chowdhury</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>
+          <a href="https://hanzheteng.com/">Hanzhe Teng</a>, <b>Dimitrios Chatziparaschis</b>, <a href="https://scholar.google.com/citations?user=sZ11YxIAAAAJ&hl=en&authuser=1"> Xinyue Kan</a>, <a href="https://vcg.ece.ucr.edu/amit">Amit K. Roy-Chowdhury</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>
           <br>
           <em>Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision</em>, 2023
           <br>
           <a href="https://openaccess.thecvf.com/content/WACV2023/html/Teng_Centroid_Distance_Keypoint_Detector_for_Colored_Point_Clouds_WACV_2023_paper.html">paper</a>              
-          /
+          |
           <a href="https://openaccess.thecvf.com/content/WACV2023/supplemental/Teng_Centroid_Distance_Keypoint_WACV_2023_supplemental.pdf">supplementary material</a>
-          /
+          |
           <a href="https://github.com/UCR-Robotics/CED_Detector">code</a>
           <p></p>
           <p>
@@ -124,10 +165,11 @@
         </td>
       </tr>
 
-      <tr onmouseout="eca_stop()" onmouseover="eca_start()">
+      <!-- MRDF 2024 -->
+      <tr onmouseout="mrdf2024_stop()" onmouseover="mrdf2024_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/eca.png' width=100%>
+          <img src='images/chatziparaschis_mrdf_2021.png' width=100%>
         </div>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -135,26 +177,27 @@
           <span class="papertitle">Robot-assisted Soil Apparent Electrical Conductivity Measurements in Orchards</span>
         </a>
         <br>
-        Dimitrios Chatziparaschis, <a href="https://sites.google.com/site/scudieroe/">Elia Scudiero</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>
+        <b>Dimitrios Chatziparaschis</b>, <a href="https://sites.google.com/site/scudieroe/">Elia Scudiero</a>, <a href="https://sites.google.com/view/arcs-lab/people?authuser=0">Konstantinos Karydis</a>
         <br>
-        <em>(In Press)</em>, 2023
+        <em>Mobile Robotics for Digital Farming (In press)</em>, 2023
         <br>
         <a href="https://arxiv.org/abs/2309.05128">arXiv</a>
-        /
+        |
         <a href="https://drive.google.com/file/d/1P7l9fJ9WjT5bU4e_qjbZw-qIaJ9-_dl5/view?usp=sharing">poster</a>
-        /
+        |
         <a href="https://patents.google.com/patent/US20230400446A1/en">patent</a>
         <p></p>
         <p>
-        Development of a robust semi-autonomous mobile robot solution to conduct soil apparent conductivity measurements in large fields, achieving high linearity with more than 90% in Pearson Correlation Coefficient (r) compared with groundtruth.
+        Design and development of a robust semi-autonomous mobile robot solution to conduct soil apparent conductivity measurements in large fields, achieving high linearity in Pearson Correlation Coefficient (r) tests compared with groundtruth.
         </p>
       </td>
     </tr>
-  
-    <tr onmouseout="dgnss_stop()" onmouseover="dgnss_start()">
+
+    <!-- Journal of Applied Remote Sensing 2023 -->
+    <tr onmouseout="spie_ars2023_stop()" onmouseover="spie_ars2023_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/dgnss.png' width="160">
+          <img src='images/chatziparaschis_dgnss_2023.png' width="160">
         </div>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -163,24 +206,26 @@
       </span>
         </a>
         <br>
-        Dimitrios Chatziparaschis, <a href="https://gr.linkedin.com/in/panagiotis-partsinevelos-24a39646">Panagiotis Partsinevelos</a>
+        <b>Dimitrios Chatziparaschis</b>, <a href="https://gr.linkedin.com/in/panagiotis-partsinevelos-24a39646">Panagiotis Partsinevelos</a>
         <br>
         <em>Journal of Applied Remote Sensing</em>, 2023
         <br>
         <a href="https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-17/issue-1/014519/Real-time-unmanned-aerial-vehicle-surveying-using-spatial-criteria/10.1117/1.JRS.17.014519.short?tab=ArticleLink">paper</a>
-        /
+        |
         <a href="https://galileo-masters.eu/winner/drones2gnss-future-surveying-uav-assisted-gnss-positioning-obstructed-environments/#">project webpage</a>
         <p></p>
         <p>
-        Development of a novel surveying approach using a custom-equipped UAV model, incorporating a gimbal with a camera and a single-dimensional rangefinder. The developed UAV behavior presented a multilateration target coordinate estimation, enforced spatial criteria, real-time detection, and ranging, and was evaluated in simulation showcasing high applicability under different environments and flight scenarios.
+        Development of a novel surveying approach using a custom-equipped UAV model, incorporating a gimbal with a monocular camera and a laser rangefinder. Ground target localisation based on multilateration, enhanced by a developed spatial filtering module to improve least-squares convergence speed and positioning accuracy.
+        Real-time detection and ranging capabilities were demonstrated and evaluated in simulations, highlighting high applicability and localization accuracy across different environments and flight scenarios.
         </p>
       </td>
     </tr>
     
-    <tr onmouseout="msc_stop()" onmouseover="msc_start()">
+    <!-- Master Thesis -->
+    <tr onmouseout="msc2020_stop()" onmouseover="msc2020_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/msc.png' width=100%>
+          <img src='images/master_of_science_thesis.png' width=100%>
         </div>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -188,24 +233,25 @@
           <span class="papertitle">Machine Learning for Enhancing Robotic Perception and Control</span>
         </a>
         <br>
-        Dimitrios Chatziparaschis, <a href=" https://www.intelligence.tuc.gr/~lagoudakis/">Michail G. Lagoudakis</a>
+        <b>Dimitrios Chatziparaschis</b>, <a href=" https://www.intelligence.tuc.gr/~lagoudakis/">Michail G. Lagoudakis</a>
         <br>
         <em>Electrical and Computer Engineering, Technical University of Crete</em>, 2020
         <br>
         <a href="https://dias.library.tuc.gr/view/87411?locale=en">webpage</a>
-        /
+        |
         <a href="https://dias.library.tuc.gr/view/87412?locale=en">master's thesis</a>
         <p></p>
         <p>
-        Development of a fully autonomous UAV behavior in Search-and-Rescue, utilizing machine learning approaches in both perception and control. The UAV's control and decision making part was based on a Deep Reinforcement Learning (DRL) and Deep Deterministic Policy Gradient (DDPG) model, designed and tested in a custom-crafted OpenAI Gym environment. On the perception side, object-of-interest detection was based on a proposed, designed, and trained feed-forward deconvolutional neural network to perform pixel-wise classification and segmentation.
+        Development of a fully autonomous UAV behavior in Search-and-Rescue, utilizing machine learning approaches in both perception and control. The UAV's control and decision-making system was based on Deep Reinforcement Learning (DRL) and Deep Deterministic Policy Gradient (DDPG) models and was developed in a custom OpenAI Gym environment. For perception, object-of-interest detection was based on a proposed, designed, and trained feed-forward encoder-decoder network to perform pixel-wise classification and semantic segmentation.
         </p>
       </td>
     </tr>
 
-    <tr onmouseout="partsi2020_stop()" onmouseover="partsi2020_start()">
+    <!-- Remote Sensing 2020 -->
+    <tr onmouseout="remotesensing2020_stop()" onmouseover="remotesensing2020_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/partsi2020.png' width="160">
+          <img src='images/partsinevelos_remotesensing_2020.png' width="160">
         </div>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -214,22 +260,23 @@
       </span>
         </a>
         <br>
-        <a href="https://gr.linkedin.com/in/panagiotis-partsinevelos-24a39646">Panagiotis Partsinevelos</a>, Dimitrios Chatziparaschis, <a href="https://theorg.com/org/mindtech-global/org-chart/dimitrios-trigkakis 6">Dimitrios Trigkakis</a>, <a href="https://www.linkedin.com/in/achilleas-tripolitsiotis-90ab7132">Achilleas Tripolitsiotis</a>
+        <a href="https://gr.linkedin.com/in/panagiotis-partsinevelos-24a39646">Panagiotis Partsinevelos</a>, <b>Dimitrios Chatziparaschis</b>, <a href="https://theorg.com/org/mindtech-global/org-chart/dimitrios-trigkakis 6">Dimitrios Trigkakis</a>, <a href="https://www.linkedin.com/in/achilleas-tripolitsiotis-90ab7132">Achilleas Tripolitsiotis</a>
         <br>
         <em>Remote Sensing</em>, 2020
         <br>
         <a href="https://www.mdpi.com/2072-4292/12/7/1080">paper</a>
         <p></p>
         <p>
-        Proposal of UAV system to assist surveys in GNSS-denied areas, due to the clear-sky visibility of GNSS satellites. This study demonstrated the feasibility of this application by presenting background information, proposing system architecture, and conducting a positioning error analysis for theoretical evaluation.
+        Proposal of UAV system to assist surveys in GNSS-denied areas utilizing its clear-sky visibility of GNSS satellites. This study demonstrates the feasibility of this application through the proposal of system architecture and a theoretical evaluation analysis of positioning error.
         </p>
       </td>
     </tr>
 
-    <tr onmouseout="partsi2020_stop()" onmouseover="partsi2020_start()">
+    <!-- Drones 2020 -->
+    <tr onmouseout="drones2020_stop()" onmouseover="drones2020_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/drones2020.png' width=100%>
+          <img src='images/undergraduate_of_science_thesis.png' width=100%>
         </div>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -237,24 +284,24 @@
           <span class="papertitle">Aerial and Ground Robot Collaboration for Autonomous Mapping in Search and Rescue Missions</span>
         </a>
         <br>
-        Dimitrios Chatziparaschis, <a href="https://www.intelligence.tuc.gr/~lagoudakis/">Michail G. Lagoudakis</a>, <a href="https://gr.linkedin.com/in/panagiotis-partsinevelos-24a39646">Panagiotis Partsinevelos</a>
+        <b>Dimitrios Chatziparaschis</b>, <a href="https://www.intelligence.tuc.gr/~lagoudakis/">Michail G. Lagoudakis</a>, <a href="https://gr.linkedin.com/in/panagiotis-partsinevelos-24a39646">Panagiotis Partsinevelos</a>
         <br>
         <em>Drones</em>, 2020
         <br>
         <a href="https://www.mdpi.com/2504-446X/4/4/79">paper</a>
-        /
+        |
         <a href="https://dias.library.tuc.gr/view/79097?locale=en">webpage</a>
-        /
+        |
         <a href="https://dias.library.tuc.gr/view/79099?locale=en">diploma thesis</a>
         <p></p>
         <p>
-        Demonstration of an aerial-ground robot collaboration in Search-and-Rescue scenarios in unknown environments. Considering the humanoid robot as "sensor blind" for localization, we demonstrate UAV-assisted in relative localization by employing onboard Hector SLAM and Adaptive Monte Carlo localization (AMCL), from above, to provide the humanoid's pose. At the same time, the humanoid robot used a YOLOV2 model trained on the PASCAL VOC dataset to detect individuals in need and approached them by using the FootStep planner based on R* search.
+          Demonstration of an aerial-ground robot collaboration in Search-and-Rescue scenarios. By considering that the humanoid was “blind” in terms of sensing for localization, we introduced a UAV-assisted relative localization solution employing onboard multi-camera depth estimation with stereo correspondence and disparity filtering, 3D occupancy grid mapping, and Adaptive Monte Carlo Localization. The humanoid robot was equipped with a custom-trained YOLO detector for human detection and approached targets through a FootStep planner with R* search algorithm, guided by the UAV.
         </p>
       </td>
     </tr>
-
     </tbody></table>
 
+    <!-- Credits -->
     <tbody>
       <tr>
         <td style="padding:0px">
